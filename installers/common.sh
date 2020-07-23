@@ -23,7 +23,7 @@ readonly raspap_adblock="/etc/dnsmasq.d/090_adblock.conf"
 readonly raspap_sysctl="/etc/sysctl.d/90_raspap.conf"
 readonly rulesv4="/etc/iptables/rules.v4"
 readonly notracking_url="https://raw.githubusercontent.com/notracking/hosts-blocklists/master/"
-webroot_dir="/var/www/html"
+webroot_dir="/var/www/html/wifi"
 git_source_url="https://github.com/$repo"  # $repo from install.raspap.com
 
 # NOTE: all the below functions are overloadable for system-specific installs
