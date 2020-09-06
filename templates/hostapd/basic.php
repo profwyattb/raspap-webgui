@@ -1,6 +1,6 @@
 <div class="tab-pane active" id="basic">
   <h4 class="mt-3"><?php echo _("Basic settings") ;?></h4>
-  <div class="row">
+  <div class="row" hidden>
     <div class="form-group col-md-6">
       <label for="cbxinterface"><?php echo _("Interface") ;?></label>
       <?php
