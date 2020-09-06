@@ -1,6 +1,6 @@
 <div class="tab-pane active" id="server-settings">
   <h4 class="mt-3">DHCP server settings</h4>
-  <div class="row">
+  <div class="row" hidden>
     <div class="form-group col-md-6">
       <label for="code">Interface</label>
       <select class="form-control" name="interface">
