@@ -35,7 +35,7 @@
           <!-- Nav tabs -->
           <ul class="nav nav-tabs mb-3">
             <li class="nav-item"><a class="nav-link active" href="#server-settings" data-toggle="tab"><?php echo _("Server settings"); ?></a></li>
-            <li class="nav-item"><a class="nav-link" href="#advanced" data-toggle="tab"><?php echo _("Advanced"); ?></a></li>
+            <li class="nav-item" hidden><a class="nav-link" href="#advanced" data-toggle="tab"><?php echo _("Advanced"); ?></a></li>
             <li class="nav-item"><a class="nav-link" href="#static-leases" data-toggle="tab"><?php echo _("Static Leases") ?></a></li>
             <li class="nav-item"><a class="nav-link" href="#client-list" data-toggle="tab"><?php echo _("Client list"); ?></a></li>
             <li class="nav-item"><a class="nav-link" href="#logging" data-toggle="tab"><?php echo _("Logging"); ?></a></li>
